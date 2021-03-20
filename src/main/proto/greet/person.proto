@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package greet;
+
+option java_package = "com.proto.person";
+option java_multiple_files = true;
+
+message Person {
+  string name = 1;
+  string sir_name = 2;
+}
